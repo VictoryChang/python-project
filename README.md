@@ -14,9 +14,9 @@ Build an end to end python project with a set of established software project to
 |Unit Tests|pytest|tests/test_unit.py|
 |Integration Tests|pytest|tests/test_integration.py|
 |API Tests|pytest (client model)|tests/test_api.py|
-|UI E2E Tests|pytest|tests/test_ui.py|
+|UI E2E Tests|Playwright/pytest|tests/test_ui.py|
 |Containerization|Docker|Dockerfile|
-|Image Repo|Dockerhub|victorychang/calculator|
+|Image Repo|DockerHub|https://hub.docker.com/r/victorychang/calculator|
 
 
 ## Order
