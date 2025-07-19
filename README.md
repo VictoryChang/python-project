@@ -12,3 +12,11 @@ Build an end to end python project with a set of established software project to
 |API&UI Framework|FastAPI| main.py|
 |Unit Tests|pytest|tests/test_unit.py|
 |Integration Tests|pytest|tests/test_integration.py|
+|API Tests|pytest (client model)|tests/test_api.py|
+
+
+## Order
+1. pytest -rPx tests/test_unit.py
+2. pytest -rPx tests/test_integration.py
+3. uvicorn main:app --reload
+4. pytest -rPx tests/test_api.py
