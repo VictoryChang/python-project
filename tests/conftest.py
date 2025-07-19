@@ -3,6 +3,7 @@ import pytest
 
 from tests.calculator_client import CalculatorClient
 
+
 # api tests
 @pytest.fixture(scope="session")
 def client():

@@ -4,4 +4,3 @@ def sum(a: int, b: int) -> int:
 
 def double_sum(a: int, b: int) -> int:
     return 2 * sum(a, b)
-
